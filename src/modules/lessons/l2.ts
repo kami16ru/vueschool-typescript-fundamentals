@@ -1,28 +1,28 @@
 export default (() => {
-    return () => {
-        // javascript
+    // javascript
 
-        // let price = 24
-        //
-        // price = '24'
-        //
-        // const duck = {
-        //     wings: 2,
-        //     feet: 2
-        // }
-        //
-        // duck.swims = true
-        // delete duck.feet
+    // let price = 24
+    //
+    // price = '24'
+    //
+    // const duck = {
+    //     wings: 2,
+    //     feet: 2
+    // }
+    //
+    // duck.swims = true
+    // delete duck.feet
 
-        //typescript
+    //typescript
 
-        let price = 24
+    let price = 24
 
-        const duck = {
-            wings: 2,
-            feet: 2
-        }
-
-        console.log(duck)
+    const duck = {
+        wings: 2,
+        feet: 2
     }
+
+    console.log(duck)
+
+    return true
 })()
