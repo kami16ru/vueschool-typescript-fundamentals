@@ -46,6 +46,9 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
+import lesson2 from '../modules/lessons/l2'
+
+lesson2()
 
 const props = withDefaults(defineProps<{
     msg: string;
