@@ -25,8 +25,8 @@ export function loadLanguages() {
 export const i18n = createI18n({
     // globalInjection: true,
     // legacy: false,
-    locale: 'zh-cn',
-    fallbackLocale: 'zh-cn',
+    locale: 'en',
+    fallbackLocale: 'en',
     messages: loadLanguages()
 })
 
